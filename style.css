@@ -177,7 +177,7 @@ strong {
   display: flex;
   padding-top: 80px;
 }
-.left-container {
+.left-menu {
   background-color: #E7E9EB;
   width: 15%;
   display: flex;
@@ -208,24 +208,24 @@ strong {
   background-color: #ccc;
 }
 
-.right-container{
+.w3-container{
   width: 85%;
   
  
 }
-.right-container__body {
+.w3-container__body {
   display: flex;
   width: 100%;
   border-bottom: 1px solid rgb(217, 212, 212);
 }
-.right-container .main {
+.w3-container .main {
   width: 85%;
 }
 .main img {
   width: 100%;
 }
 
-.right-container .right {
+.w3-container .right {
   width: 15%;
   border-left: 1px solid rgb(217, 212, 212);
 }
@@ -380,7 +380,7 @@ strong {
   margin: 0px 10%;
 }
 /* footer */
-.right-container__footer{
+.w3-container__footer{
   margin-top: 80px;
   background: url(./assets/footer.png) no-repeat center ;
   color: #DDD;
