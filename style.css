@@ -161,7 +161,7 @@ strong {
   }
 }
 @media screen and (max-width: 1120px) {
-  .right-item a:nth-child(3) {
+  .right-items a:last-child {
     display: none;
   }
 }
@@ -503,5 +503,14 @@ strong {
 @media screen and (max-width: 1295px) {
   .footer__items {
     flex-direction: column;
+  }
+  .footer__links {
+    display: none;
+  }
+  .footer__some {
+    display: none;
+  }
+  .footer__text {
+    display: none;
   }
 }
